@@ -24,7 +24,7 @@ letter = Post.new(title_name)
 add_post(letter)
 end
 
-def post_count
+def self.post_count
 Post.all.count
 end
 
